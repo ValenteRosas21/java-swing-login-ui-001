@@ -38,27 +38,27 @@ public class PanelLoginAndRegister extends javax.swing.JLayeredPane {
 
     private void initRegister(ActionListener eventRegister) {
         register.setLayout(new MigLayout("wrap", "push[center]push", "push[]25[]10[]10[]25[]push"));
-        JLabel label = new JLabel("Create Account");
-        label.setFont(new Font("sansserif", 1, 30));
-        label.setForeground(new Color(7, 164, 121));
+        JLabel label = new JLabel("Crea una cuenta!");
+        label.setFont(new Font("arial", 1, 30));
+        label.setForeground(new Color(25, 173, 204));
         register.add(label);
         MyTextField txtUser = new MyTextField();
         txtUser.setPrefixIcon(new ImageIcon(getClass().getResource("/com/raven/icon/user.png")));
-        txtUser.setHint("Name");
+        txtUser.setHint("Nombre");
         register.add(txtUser, "w 60%");
         MyTextField txtEmail = new MyTextField();
         txtEmail.setPrefixIcon(new ImageIcon(getClass().getResource("/com/raven/icon/mail.png")));
-        txtEmail.setHint("Email");
+        txtEmail.setHint("Correo");
         register.add(txtEmail, "w 60%");
         MyPasswordField txtPass = new MyPasswordField();
         txtPass.setPrefixIcon(new ImageIcon(getClass().getResource("/com/raven/icon/pass.png")));
-        txtPass.setHint("Password");
+        txtPass.setHint("Contrasenia");
         register.add(txtPass, "w 60%");
         Button cmd = new Button();
-        cmd.setBackground(new Color(7, 164, 121));
-        cmd.setForeground(new Color(250, 250, 250));
+        cmd.setBackground(new Color(25, 173, 204));
+        cmd.setForeground(new Color(255, 255, 255));
         cmd.addActionListener(eventRegister);
-        cmd.setText("SIGN UP");
+        cmd.setText("Crear cuenta");
         register.add(cmd, "w 40%, h 40");
         cmd.addActionListener(new ActionListener() {
             @Override
@@ -73,29 +73,29 @@ public class PanelLoginAndRegister extends javax.swing.JLayeredPane {
 
     private void initLogin(ActionListener eventLogin) {
         login.setLayout(new MigLayout("wrap", "push[center]push", "push[]25[]10[]10[]25[]push"));
-        JLabel label = new JLabel("Sign In");
-        label.setFont(new Font("sansserif", 1, 30));
-        label.setForeground(new Color(7, 164, 121));
+        JLabel label = new JLabel("Ingresar");
+        label.setFont(new Font("arial", 1, 30));
+        label.setForeground(new Color(25, 173, 204));
         login.add(label);
         MyTextField txtEmail = new MyTextField();
         txtEmail.setPrefixIcon(new ImageIcon(getClass().getResource("/com/raven/icon/mail.png")));
-        txtEmail.setHint("Email");
+        txtEmail.setHint("Correo");
         login.add(txtEmail, "w 60%");
         MyPasswordField txtPass = new MyPasswordField();
         txtPass.setPrefixIcon(new ImageIcon(getClass().getResource("/com/raven/icon/pass.png")));
-        txtPass.setHint("Password");
+        txtPass.setHint("Contrasenia");
         login.add(txtPass, "w 60%");
-        JButton cmdForget = new JButton("Forgot your password ?");
-        cmdForget.setForeground(new Color(100, 100, 100));
-        cmdForget.setFont(new Font("sansserif", 1, 12));
+        JButton cmdForget = new JButton("Olvidaste tu contrasenia ?");
+        cmdForget.setForeground(new Color(25, 173, 204));
+        cmdForget.setFont(new Font("arial", 1, 12));
         cmdForget.setContentAreaFilled(false);
         cmdForget.setCursor(new Cursor(Cursor.HAND_CURSOR));
         login.add(cmdForget);
         Button cmd = new Button();
-        cmd.setBackground(new Color(7, 164, 121));
-        cmd.setForeground(new Color(250, 250, 250));
+        cmd.setBackground(new Color(25, 173, 204));
+        cmd.setForeground(new Color(255, 255, 255));
         cmd.addActionListener(eventLogin);
-        cmd.setText("SIGN IN");
+        cmd.setText("Ingresar");
         login.add(cmd, "w 40%, h 40");
         cmd.addActionListener(new ActionListener() {
             @Override

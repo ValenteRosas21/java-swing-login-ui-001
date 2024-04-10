@@ -10,7 +10,7 @@ public class MainSystem extends javax.swing.JFrame {
     public MainSystem(ModelUser user) {
         this.user = user;
         initComponents();
-        getContentPane().setBackground(new Color(255, 255, 255));
+        getContentPane().setBackground(new Color(80,66,209));
         lbUser.setText(user.getUserName());
     }
 

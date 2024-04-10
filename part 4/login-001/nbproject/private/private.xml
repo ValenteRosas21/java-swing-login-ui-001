@@ -3,7 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Raven/youtube/ui%20design/login/project/part%204/login-001/src/com/raven/connection/DatabaseConnection.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/connection/DatabaseConnection.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/service/ServiceMail.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/component/PanelLoading.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/model/ModelLogin.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/component/PanelVerifyCode.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/main/Main.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/component/PanelCover.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/component/Message.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/model/ModelMessage.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/model/ModelUser.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/component/PanelLoginAndRegister.java</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/icon/error.png</file>
+            <file>file:/C:/Users/Valente/Documents/GitHub/java-swing-login-ui-001/part%204/login-001/src/com/raven/main/MainSystem.java</file>
         </group>
     </open-files>
 </project-private>
